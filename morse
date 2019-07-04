@@ -37,10 +37,16 @@ void loop()
       case 'x':X();break;
       case 'y':Y();break;
       case 'z':Z();break;
-
+      case ' ':
+      case '\n':space();break;
 
     }
   }
+}
+void space()
+{
+  digitalWrite(13, LOW);
+  delay(2000);
 }
 void A()
 {
