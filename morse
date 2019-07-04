@@ -16,6 +16,7 @@ void loop()
       case 'c':C();break;
       case 'd':D();break;
       case 'e':E();break;
+      case 'f':f();break;
       case 'g':G();break;
       case 'h':H();break;
       case 'i':I();break;
@@ -68,6 +69,13 @@ void D()
 }
 void E()
 {
+  morse.dot();
+}
+void f()
+{
+  morse.dot();
+  morse.dot();
+  morse.dash();
   morse.dot();
 }
 void G()
